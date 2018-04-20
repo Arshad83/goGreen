@@ -1,19 +1,35 @@
-"repositories": [
+/*"repositories": [
     {
         "type": "package",
         "package": {
-            "name": "Green/goGreen",
+            "name": "Arshad83/Green",
             "version": "dev-master",
             "source": {
-                "url": "git://github.com/weaverryan/derp-dangerzone.git",
+                "url": "git://github.com/Arshad83/goGreen.git",
                 "type": "git",
                 "reference": "master"
             },
             "autoload": {
                 "psr-0" : {
-                    "Green\\greenText" : "src"
+                    "goGreen\\greenText" : "src"
                 }
             }
         }
     }
-],
+]*/
+
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Arshad83/goGreen"
+    },
+    {
+    "name": "weaverryan/derp-dangerzone",
+    "autoload": {
+        "psr-0" : {
+            "goGreen\\greenText" : "src"
+        }
+    },
+
+}
+]
